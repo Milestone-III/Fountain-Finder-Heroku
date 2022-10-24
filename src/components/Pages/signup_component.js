@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { useState } from 'react';
-import axios from 'axios';
 
 export default function SignUp() {
   let [usersData, setUsersData] = useState({ fname: "", lname: "", email: "", password: "" })
